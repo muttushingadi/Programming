@@ -5,10 +5,10 @@
 # 1111
 ########
 class PrintAllOnes
-  for line in 1..4
-     for count in 1..line
-       print "1"
-     end
-	puts "\n"
-  end
+	for line in 1..4
+		for count in 1..line
+		print "1"
+     		end
+		puts "\n"
+  	end
 end

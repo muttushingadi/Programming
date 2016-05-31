@@ -7,7 +7,7 @@
 class Pat2
 	for i in 1..3
 		for j in 1..i
-			print j
+			print "#{j}"
 		end
 		puts "\n" 
 	end
