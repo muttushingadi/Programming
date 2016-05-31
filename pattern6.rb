@@ -1,3 +1,10 @@
+###Print the following pattern
+#      1
+#     323
+#    54345
+#   7654567
+#  987656789 
+##########################
 class Pat6
 count=5
 	for line in 1..5

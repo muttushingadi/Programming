@@ -1,7 +1,7 @@
 ##Print the following pattern
-5  7 
-9  11 13
-15 17 19 21
+#5  7 
+#9  11 13
+#15 17 19 21
 ###############
 class Pat5
 	k=5
