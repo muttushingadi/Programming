@@ -4,11 +4,11 @@
 #15 17 19 21
 ###############
 class Pat5
-	k=5
+	i=5
 	for line in 1..3
 		for count in 1..line
-			print "#{k}"
-			k=k+2
+			print "#{i}"
+			i=i+2
 		end
 		puts "\n"
 	end
