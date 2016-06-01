@@ -5,10 +5,9 @@
 #   7654567
 #  987656789 
 ##########################
-class Pat6
-count=5
+class Patount
 	for line in 1..5
-		for s in 1..count-line
+		for s in 1..5-line
 			print " "
 		end
 		k=(2*line)-1
@@ -17,7 +16,7 @@ count=5
 			k=k-1
 		end
 		for j in 1..line-1
-			print "#{line+j}"
+			print line+j
 		end
 		puts "\n"
 	end
