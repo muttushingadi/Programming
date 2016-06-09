@@ -23,7 +23,7 @@ elsif n<=999
 	if d<20
 		puts [my_hash[n/100],"hundred",[my_hash[d]]].join(" ")
 	else
-		puts [a,"hundred",my_hash[d-n%10],my_hash[n%10]].join(" ")
+		puts [my_hash[n/100],"hundred",my_hash[d-n%10],my_hash[n%10]].join(" ")
 	end
 else
 	puts "provide 3 digit input"
