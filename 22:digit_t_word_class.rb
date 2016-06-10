@@ -1,6 +1,9 @@
-#To convert digit to words
-###################
-def d_words(k)
+class Integer
+	def to_s
+		"welcome"
+	end
+	def to_eng
+
 		my_hash=Hash.new
 
 		my_hash={
@@ -12,10 +15,10 @@ def d_words(k)
 				80=>"eighty",90=>"ninty"
 		}
 
-		if k.start_with?("0")
-			print "zero "
-		end
-		n=k.to_i
+		#if k.start_with?("0")
+		#	print "zero "
+		#end
+		n=self
 		if my_hash.has_key?(n)
 			puts my_hash[n]
 		elsif n<=99
@@ -30,7 +33,7 @@ def d_words(k)
 		else
 			puts "provide 3 digit input"
 		end
-		end
-puts "enter the digit"
-k=gets.chomp
-d_words(k)
+	end
+end
+puts 124.to_eng
+puts 12.to_s
