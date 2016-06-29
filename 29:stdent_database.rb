@@ -1,8 +1,8 @@
 puts "enter the no of test cases"
 t=gets.chomp.to_i
-puts "enter the no of student in class and cancellation threshold"
 while t>0
 	a=[]
+	puts "enter the no of student in class and cancellation threshold"
 	n=gets.chomp.to_i
 	thr=gets.chomp.to_i
 	for i in 0..n-1
