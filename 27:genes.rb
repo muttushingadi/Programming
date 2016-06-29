@@ -32,6 +32,7 @@ class Genes
 				l_count=l_count+1
 			end
 		end
+		puts "ml=#{l_count}"
 		return l_count,ca,cc,cg,ct
 	end
 
@@ -68,6 +69,7 @@ class Genes
 			end
 			range=range-1
 		end
+		puts "mr=#{r_count}"
 		return r_count,l_count
 	end
 end
